@@ -1,9 +1,14 @@
 <p align="center">
   <a href="">
-    <img alt="ActiveBlur" src="img/store-img.png" width="1038"/>
+    <img alt="ActiveBlur" src="icons/icon.png" width="70"/>
   </a>
 </p>
+
 <h1 align="center">Improve Proton <i>- a firefox plugin</i></h1>
+
+<p align="center">
+  <img alt="ActiveBlur" src="img/store-img.png" width="1038"/>
+</p>
 
 ## Description
 
