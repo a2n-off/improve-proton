@@ -24,7 +24,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.proton.me/*"],
-      "js": ["remove-pbtn.js", "move-label.js", "listenerParam.js"]
+      "js": ["remove-pbtn.js", "move-label.js"]
     }
   ]
 }
