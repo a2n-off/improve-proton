@@ -3,7 +3,7 @@
   "name": "improveProton",
   "version": "1.0",
 
-  "description": "Remove 'get proton family' button and set the tag for the email at the left",
+  "description": "Remove 'get proton family' button",
 
   "icons": {
     "48": "icons/icon-48.png"
@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.proton.me/*"],
-      "js": ["remove-pbtn.js"]
+      "js": ["remove-pbtn.js", "move-label.js"]
     }
   ]
 }
