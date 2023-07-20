@@ -3,16 +3,28 @@
   "name": "improveProton",
   "version": "1.0",
 
-  "description": "Remove 'get proton family' button",
+  "description": "Remove 'get proton family' button and improve the placement of the mail label",
 
   "icons": {
     "48": "icons/icon-48.png"
   },
 
+  "permissions": ["activeTab", "storage"],
+
+  "options_ui": {
+    "page": "settings/options.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "improveProton@a2n.dev"
+    }
+  },
+
   "content_scripts": [
     {
       "matches": ["https://*.proton.me/*"],
-      "js": ["remove-pbtn.js", "move-label.js"]
+      "js": ["remove-pbtn.js", "move-label.js", "listenerParam.js"]
     }
   ]
 }
