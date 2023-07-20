@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "improveProton",
+  "version": "1.0",
+
+  "description": "Remove 'get proton family' button and set the tag for the email at the left",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.proton.me/*"],
+      "js": ["remove-pbtn.js"]
+    }
+  ]
+}
