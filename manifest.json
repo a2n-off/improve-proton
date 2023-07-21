@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "improveProton",
-  "version": "1.1",
+  "version": "1.2",
 
   "description": "Remove 'get proton family' button and improve the placement of the mail label",
 
