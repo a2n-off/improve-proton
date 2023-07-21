@@ -4,3 +4,7 @@
   - improve icons
 ## v1.2
   - hotfix on a typo in a function name
+## v2
+  - chrome polyfill
+  - move the manifest to v3
+  - remove the unnecessary permissions
