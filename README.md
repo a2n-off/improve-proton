@@ -28,7 +28,8 @@ I've been wanting to make a firefox extension for a long time and now I have two
 
 ## Installation
 
-- Download the extension and check the options (by default both of them are deactivated)
+- [Download the extension](https://addons.mozilla.org/en-US/firefox/addon/improveproton/)
+- **check the options (by default both of them are deactivated)**
 
 ## Configuration
 
@@ -51,7 +52,7 @@ See the following file :
 
 ## Roadmap
 
-- nothing yet
+- test & deploy on chrome
 
 ## Want to participate? Have a bug or a request feature?
 
@@ -61,6 +62,7 @@ Do not hesitate to open a pr or an issue. I reply when I can.
 
 - [Give me a tips](https://ko-fi.com/a2n00)
 - [Give a star on github](https://github.com/bouteillerAlan/improve-proton)
+- [Give a five start on AMO](https://addons.mozilla.org/en-US/firefox/addon/improveproton/)
 - Or just participate to the developement :D
 
 ### Thanks !
