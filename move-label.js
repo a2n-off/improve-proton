@@ -29,7 +29,7 @@ function moveTargetToLz(observerML) {
             if (i === target.length - 1) {
                 console.info('ML - loop on target done');
                 console.info('ML - re-enabling the observer');
-                enableObs();
+                enableLabelObs();
             }
         }
     }
