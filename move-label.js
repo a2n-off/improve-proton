@@ -48,7 +48,8 @@ function enableLabelObs() {
  */
 function clearanceForLabel() {
     browser.storage.sync.get('label').then((value) => {
-        if (value.label === 'true') enableLabelObs();
+        if (value.label === 'false') return;
+        enableLabelObs();
     }, onLabelError)
 }
 

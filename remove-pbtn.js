@@ -39,7 +39,8 @@ function enablePremiumObs() {
  */
 function clearanceForPremium() {
     browser.storage.sync.get('premium').then((value) => {
-        if (value.premium === 'true') enablePremiumObs();
+        if (value.premium === 'false') return;
+        enablePremiumObs();
     }, onPremiumError)
 }
 
